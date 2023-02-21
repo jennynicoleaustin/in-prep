@@ -30,3 +30,14 @@ Objects returned in the Reducer functions
   - If you forget to set a value of state within the reducer function that updates state then that value will be replaced with undefined.
 - Never mutate the state directly in a reducer function
   - instead return a new state object 
+
+### Using the Toolkit instead of plain redux
+- createSlice 
+  - Allows you to identify each of the reducer methods you would like to execute
+    - each reducer will automatically take in a state and action
+      - You will not need to create if checks to check the "type"
+  - When using the createSlice --- You CAN mutate the state directly within the "reducers: {}"
+    - Why? internal use of immer? 
+      - that clones the existing state, create a new state, keep the state that is not being edited and then updates the state that is being edited. -- translated into immutable code. 
+  - When creating a reducer that uses both the state and an action
+    - You can pass the state and action to be used, but you do not need to pass action if action is not being used. 
