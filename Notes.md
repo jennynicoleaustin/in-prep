@@ -21,3 +21,12 @@
   - Dispatched Action
 - 1 Output: 
   - new state object
+
+
+Objects returned in the Reducer functions 
+- always returns a NEW snapshot (state object)
+  - redux uses the new snapshot returned by the reducer function to replace the states existing object. 
+- objects returned by the reducer OVERRIDE the existing state. 
+  - If you forget to set a value of state within the reducer function that updates state then that value will be replaced with undefined.
+- Never mutate the state directly in a reducer function
+  - instead return a new state object 
