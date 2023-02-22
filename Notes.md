@@ -41,3 +41,9 @@ Objects returned in the Reducer functions
       - that clones the existing state, create a new state, keep the state that is not being edited and then updates the state that is being edited. -- translated into immutable code. 
   - When creating a reducer that uses both the state and an action
     - You can pass the state and action to be used, but you do not need to pass action if action is not being used. 
+
+### Multiple Slices 
+- no matter the number of slices you have you will still only have a single store. 
+- Store & multiple reducers 
+  - configureStore -> takes in reducer
+    - either as a single reducer, or an object with key value pairs for each reducer
