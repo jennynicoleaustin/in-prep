@@ -21,3 +21,6 @@ useEffect with Redux
 Custom Action Creators to create "Thunks"
 - A function that delays an action until later.
   - An action creator function that does NOT return the action itself but another function which eventually returns the action. 
+
+Fetching data! 
+- fetch cart data on reload 

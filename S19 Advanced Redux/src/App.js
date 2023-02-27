@@ -3,9 +3,8 @@ import Layout from './components/Layout/Layout';
 import Products from './components/Shop/Products';
 import {useDispatch, useSelector} from "react-redux";
 import {Fragment, useEffect} from "react";
-import {uiActions} from "./components/Store/ui-slice";
 import Notification from "./components/UI/notification/Notification";
-import {sendCartData} from "./components/Store/cart-slice";
+import {sendCartData} from "./components/Store/cart-actions";
 
 let isInitial = true;
 function App() {
