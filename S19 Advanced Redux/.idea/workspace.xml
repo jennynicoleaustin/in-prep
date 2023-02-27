@@ -4,16 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5038c08-843d-46cf-8e97-6d333597cbee" name="Changes" comment="" />
+    <list default="true" id="c5038c08-843d-46cf-8e97-6d333597cbee" name="Changes" comment="Add section 19">
+      <change afterPath="$PROJECT_DIR$/src/components/UI/notification/Notification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/notification/Notification.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes S19 Advanced Redux.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes S19 Advanced Redux.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Store/ui-slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Store/ui-slice.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MKh6Gz0GK9z8e9w9bG4HLvNs0w" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jennifer.austin/WebstormProjects/React -udemy/S19 Advanced Redux",
+    "last_opened_file_path": "C:/Users/jennifer.austin/WebstormProjects/React -udemy",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -42,11 +58,23 @@
       <option name="presentableId" value="Default" />
       <updated>1677522003855</updated>
       <workItem from="1677522004941" duration="14000" />
-      <workItem from="1677522158461" duration="5718000" />
+      <workItem from="1677522158461" duration="10993000" />
     </task>
+    <task id="LOCAL-00001" summary="Add section 19">
+      <created>1677528254580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677528254581</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add section 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add section 19" />
   </component>
 </project>

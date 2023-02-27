@@ -7,3 +7,13 @@ Redux & Side Effects (and Asynchronous Code)
   - into the component with useEffect
   - write our own action creator functions 
 
+Action Creators 
+- allow us to run asynchronous code 
+
+Best place for your code 
+- For code that is synchronous, side effect free (like data transformations)
+  - place this type of code inside of reducers 
+- For async code, or code with side effects 
+  - place this type of code inside the components or inside an action creator.
+
+useEffect with Redux
