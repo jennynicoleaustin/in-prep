@@ -29,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jennifer.austin/WebstormProjects/React -udemy/S19 Advanced Redux",
+    "last_opened_file_path": "C:/Users/jennifer.austin/WebstormProjects/React -udemy",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,6 +59,7 @@
       <workItem from="1677512858024" duration="35000" />
       <workItem from="1677516844466" duration="1283000" />
       <workItem from="1677521901620" duration="253000" />
+      <workItem from="1677528219081" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="Add Starter Project React-redux udemy&#10;-&gt; Section 18">
       <created>1676999543451</created>
