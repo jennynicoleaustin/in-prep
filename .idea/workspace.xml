@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0b9b1442-cbb8-41f2-baeb-e0c04584c420" name="Changes" comment="Adjust Folder Organization" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2M3UwecCvlOKFHqnIM0QpgtzhWi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/jennifer.austin/WebstormProjects/React -udemy/S19 Advanced Redux",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b9b1442-cbb8-41f2-baeb-e0c04584c420" name="Changes" comment="" />
+      <created>1676995999526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676995999526</updated>
+      <workItem from="1676996000574" duration="11446000" />
+      <workItem from="1677080611896" duration="676000" />
+      <workItem from="1677084934489" duration="611000" />
+      <workItem from="1677087366275" duration="596000" />
+      <workItem from="1677093093047" duration="7000" />
+      <workItem from="1677093109183" duration="14000" />
+      <workItem from="1677103309775" duration="4004000" />
+      <workItem from="1677170753751" duration="3712000" />
+      <workItem from="1677512790299" duration="57000" />
+      <workItem from="1677512858024" duration="35000" />
+      <workItem from="1677516844466" duration="1283000" />
+      <workItem from="1677521901620" duration="253000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add Starter Project React-redux udemy&#10;-&gt; Section 18">
+      <created>1676999543451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676999543451</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Section 18&#10;-&gt; add dispatch handlers">
+      <created>1676999913695</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676999913695</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Section 18&#10;-&gt; V.238 Attaching Payloads to Actions">
+      <created>1677000720692</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677000720692</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Section 18&#10;-&gt; V.239 Working with multiple state properties">
+      <created>1677001340097</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677001340097</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Section 18&#10;-&gt; V.240 How to work with Redux state correctly">
+      <created>1677005650343</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677005650343</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Section 18&#10;-&gt; V.241 Redux Toolkit Intro">
+      <created>1677021552843</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677021552843</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Section 18&#10;-&gt; V.242 Use createSlice">
+      <created>1677021568398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677021568398</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Section 18&#10;-&gt; V.243 Connecting Redux Toolkit State">
+      <created>1677021888159</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677021888159</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Section 18&#10;-&gt; V.244 Migrating Everything to Redux Toolkit">
+      <created>1677022345464</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677022345464</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Section 18&#10;-&gt; V.245 Working with multiple slices">
+      <created>1677105309727</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677105309727</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Section 18&#10;-&gt; V.246 Reading &amp; Dispatching From A New Slice">
+      <created>1677106655607</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677106655607</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Section 18&#10;-&gt; V.247 Splitting Our Code">
+      <created>1677107308822</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677107308822</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adjust Folder Organization">
+      <created>1677521922346</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677521922346</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Adjust Folder Organization">
+      <created>1677522115853</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677522115853</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Starter Project React-redux udemy&#10;-&gt; Section 18" />
+    <MESSAGE value="Section 18&#10;-&gt; add dispatch handlers" />
+    <MESSAGE value="Section 18&#10;-&gt; V.238 Attaching Payloads to Actions" />
+    <MESSAGE value="Section 18&#10;-&gt; V.239 Working with multiple state properties" />
+    <MESSAGE value="Section 18&#10;-&gt; V.240 How to work with Redux state correctly" />
+    <MESSAGE value="Section 18&#10;-&gt; V.241 Redux Toolkit Intro" />
+    <MESSAGE value="Section 18&#10;-&gt; V.242 Use createSlice" />
+    <MESSAGE value="Section 18&#10;-&gt; V.243 Connecting Redux Toolkit State" />
+    <MESSAGE value="Section 18&#10;-&gt; V.244 Migrating Everything to Redux Toolkit" />
+    <MESSAGE value="Section 18&#10;-&gt; V.245 Working with multiple slices" />
+    <MESSAGE value="Section 18&#10;-&gt; V.246 Reading &amp; Dispatching From A New Slice" />
+    <MESSAGE value="Section 18&#10;-&gt; V.247 Splitting Our Code" />
+    <MESSAGE value="Adjust Folder Organization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjust Folder Organization" />
+  </component>
+</project>
