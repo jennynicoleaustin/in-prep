@@ -17,3 +17,7 @@ Best place for your code
   - place this type of code inside the components or inside an action creator.
 
 useEffect with Redux
+
+Custom Action Creators to create "Thunks"
+- A function that delays an action until later.
+  - An action creator function that does NOT return the action itself but another function which eventually returns the action. 
