@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5038c08-843d-46cf-8e97-6d333597cbee" name="Changes" comment="Section 19: V. 260 Custom Action Creator">
-      <change afterPath="$PROJECT_DIR$/src/components/Store/cart-actions.js" afterDir="false" />
+    <list default="true" id="c5038c08-843d-46cf-8e97-6d333597cbee" name="Changes" comment="Section 19: V. 261">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes S19 Advanced Redux.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes S19 Advanced Redux.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Store/cart-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Store/cart-actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Store/cart-slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Store/cart-slice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jennifer.austin/WebstormProjects/React -udemy",
+    "last_opened_file_path": "C:/Users/jennifer.austin/WebstormProjects/React -udemy/S21 Autentication",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,7 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1677522003855</updated>
       <workItem from="1677522004941" duration="14000" />
-      <workItem from="1677522158461" duration="14036000" />
+      <workItem from="1677522158461" duration="14442000" />
+      <workItem from="1677597598403" duration="9440000" />
     </task>
     <task id="LOCAL-00001" summary="Add section 19">
       <created>1677528254580</created>
@@ -77,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677535855745</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Section 19: V. 261">
+      <created>1677536702238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677536702238</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +96,7 @@
     <MESSAGE value="Add section 19" />
     <MESSAGE value="Section 19: V. 259" />
     <MESSAGE value="Section 19: V. 260 Custom Action Creator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 19: V. 260 Custom Action Creator" />
+    <MESSAGE value="Section 19: V. 261" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 19: V. 261" />
   </component>
 </project>
