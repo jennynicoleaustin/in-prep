@@ -11,6 +11,7 @@ import RootLayout from "./Pages/Root";
 import ErrorPage from "./Pages/Error";
 import HomePage from "./Pages/Home";
 import ProductsPage from "./Pages/ProductsPage";
+import ProductDetailPage from "./Pages/ProductDetails";
 
 // by defining children paths, you can have route dependent layouts!
 const router = createBrowserRouter([
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
     children: [
       { path: '/', element: <HomePage /> },
       { path: '/products', element: <ProductsPage /> },
+      { path: '/products/:productId', element: <ProductDetailPage /> },
     ],
   }
 ]);
