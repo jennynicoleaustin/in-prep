@@ -12,3 +12,10 @@ V. 284 - Data Fetching with a loader()
 - Where can you get access to the data events? 
   - at the page which the loader property is attached 
   - any element lower than the page that holds the loader property
+
+V. 289 - Reflecting the Current Navigation state in the UI
+- useNavigation --- has a state object 
+  - that can be used to determine if we are loading data still 
+  - If you want information to like a "loading" message to be displayed 
+    - you will need to add this element to a page that is visible BEFORE the element that is still loading. 
+      - because the loader function executes before navigating to the new page and is data is still loading than you would still be on the previous page. 
