@@ -9,3 +9,6 @@ V. 284 - Data Fetching with a loader()
     - react will take any data that you return within a loader function and make it available on that page & any other pages you may need it. 
     - response object = object with events property (= array of events)
   - React router will check if a promise has been returned and get that data for you. 
+- Where can you get access to the data events? 
+  - at the page which the loader property is attached 
+  - any element lower than the page that holds the loader property
