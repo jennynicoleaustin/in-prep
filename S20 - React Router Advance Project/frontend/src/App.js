@@ -19,7 +19,8 @@ const router = createBrowserRouter([
                 children: [
                     { index: true,
                         element: <EventsPage />,
-                        loader: async () => { const res = await fetch('localhost:8080/events')
+                        loader: async () => {
+                        const res = await fetch('http://localhost:8080/events');
                             if (!res.ok) {
                             //     will return to handle is res is not OK
                             } else {
