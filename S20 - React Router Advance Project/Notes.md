@@ -1,0 +1,10 @@
+V. 284 - Data Fetching with a loader()
+- React router to start fetching the data as soon as we navigate to the page. 
+  - Fetch the data first, then render the page.... 
+    - rather than rendering the page and then loading the data.
+- Property add to the route definition. 
+  - loader property 
+    - expects a function as a value
+    - function is executed right before that route is rendered.
+    - react will take any data that you return within a loader function and make it available on that page & any other pages you may need it. 
+    - response object = object with events property (= array of events)
