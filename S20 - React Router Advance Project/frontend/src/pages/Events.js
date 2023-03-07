@@ -4,10 +4,11 @@ import {useLoaderData} from "react-router-dom";
 function EventsPage() {
 
     const eventsData = useLoaderData()
+    const events = eventsData.events
 
     return (
         <>
-            {<EventsList events={eventsData}/>}
+            {<EventsList events={events}/>}
         </>
     );
 }
@@ -20,7 +21,6 @@ export async function loader() {
     if (!response.ok) {
         // ...
     } else {
-        const resData = await response.json();
-        return resData.events;
+        return response;
     }
 }

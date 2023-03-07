@@ -19,3 +19,7 @@ V. 289 - Reflecting the Current Navigation state in the UI
   - If you want information to like a "loading" message to be displayed 
     - you will need to add this element to a page that is visible BEFORE the element that is still loading. 
       - because the loader function executes before navigating to the new page and is data is still loading than you would still be on the previous page. 
+
+V. 290 Returning Responses in Loader()s
+- within a loader you can return any kind of data within the loader 
+- react automatically gives us the data that is part of the fetch response without having to parse the data! winning. 
