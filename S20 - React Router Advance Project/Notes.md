@@ -34,3 +34,8 @@ V. 292 - Error Handling
 V. 294 The json() utility function
 - return json({message object goes here}, {status: xxx})
 - Now the parsing in and out of json is done by react and you do not have to manually do it 
+
+V. 295 Dynamic Routes and loader()
+- loader functions are automatically passed and object from React that contain a { request, params }
+- request object 
+  - used to extract the url / query parameters
