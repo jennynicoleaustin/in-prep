@@ -1,7 +1,7 @@
 function ErrorPage() {
     return (
         <>
-            <h1>Whoops</h1>
+            <h1>Whoops, an error occurred!</h1>
         </>
     )
 }

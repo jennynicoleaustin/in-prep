@@ -25,5 +25,8 @@ V. 290 Returning Responses in Loader()s
 - react automatically gives us the data that is part of the fetch response without having to parse the data! winning. 
 
 V. 291 
-- cannot use react hooks 
+- cannot use React hooks 
 - CAN use any browser functions (localstorage etc)
+
+V. 292 - Error Handling
+- Errors bubble up, so you can just have a root level error.
