@@ -31,3 +31,6 @@ V. 291
 V. 292 - Error Handling
 - Errors bubble up, so you can just have a root level error.
 
+V. 294 The json() utility function
+- return json({message object goes here}, {status: xxx})
+- Now the parsing in and out of json is done by react and you do not have to manually do it 
