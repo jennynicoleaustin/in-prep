@@ -51,3 +51,7 @@ FORMS
     - react router with prevent default automatically and send the form request to the action function instead
 Redirect('url')
     - at the end of the action function you should call react router dom redirect function and pass in the url you want to redirect to. 
+
+V. 303 
+- useFetcher 
+  - use when you want to trigger an action (or loader) withOUT navigating to that page 
