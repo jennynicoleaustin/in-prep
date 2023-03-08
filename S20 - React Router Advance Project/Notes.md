@@ -39,3 +39,15 @@ V. 295 Dynamic Routes and loader()
 - loader functions are automatically passed and object from React that contain a { request, params }
 - request object 
   - used to extract the url / query parameters
+
+V. 298 Working with action() Functions 
+- action: 
+  - expects a function like loader
+
+FORMS 
+- for React router to easily access the form inputs...
+  - make sure that each input have the "name" attribute
+  - Form attribute from React Router Dom
+    - react router with prevent default automatically and send the form request to the action function instead
+Redirect('url')
+    - at the end of the action function you should call react router dom redirect function and pass in the url you want to redirect to. 
