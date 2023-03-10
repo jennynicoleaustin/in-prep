@@ -1,3 +1,9 @@
+V. 280 Index Routes
+- Rather than putting an empty '' as the path
+  - set index: true
+- index route = 
+  - default route if parent route is active
+
 V. 284 - Data Fetching with a loader()
 - React router to start fetching the data as soon as we navigate to the page. 
   - Fetch the data first, then render the page.... 
