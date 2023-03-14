@@ -16,3 +16,7 @@ V. 327 Requiring a directory
   - To require all files within a directory include a single index.js 
     - inside index.js export an array of all the files 
     - within the app, require the whole directory
+
+NPM Node Package Managers 
+
+Installing NPM Packages 
