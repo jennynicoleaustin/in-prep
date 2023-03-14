@@ -68,6 +68,9 @@ app.get('/search', (req, res) => {
     }
 })
 
+app.get('/jenny', (req, res) => {
+    res.send('Jenny is the coolest software developer ever!')
+})
 
 //  This needs to be the very last path defined -- paths are matched in order
 app.get('*', (req, res) => {
