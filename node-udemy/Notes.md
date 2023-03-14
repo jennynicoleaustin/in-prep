@@ -66,3 +66,7 @@ V. 343 What is Templating
 - EJS (js syntax)
 
 V. 344 Configure for the Templating engine 
+- view files should be in a directory called views and views should be .ejs files 
+
+V. 345 Setting the views directory 
+- as is ejs only knows how to find the views directory when you are in the correct parent directory.
