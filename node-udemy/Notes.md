@@ -20,3 +20,16 @@ V. 327 Requiring a directory
 NPM Node Package Managers 
 
 Installing NPM Packages 
+- locally or globally
+
+Package.json 
+- keep track of all needed dependencies to run the project elsewhere
+
+npm install 
+- when ran in a project will look for the package.json and install all the dependencies listed in the package.json
+
+Section 33 - Servers with Express
+
+V. 335 Intro to Express 
+- web framework for node.js 
+- 
