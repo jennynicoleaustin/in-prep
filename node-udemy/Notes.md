@@ -70,3 +70,7 @@ V. 344 Configure for the Templating engine
 
 V. 345 Setting the views directory 
 - as is ejs only knows how to find the views directory when you are in the correct parent directory.
+
+V. 347 Passing Data 
+- Templates should be as stupid as you can make them 
+  - aka remove all the logic that you can from the template 
