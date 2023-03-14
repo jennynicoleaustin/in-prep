@@ -23,7 +23,17 @@ app.listen(8080, () => {
 // /cats => 'meow'
 // /dogs => 'woof'
 // '/'
+app.post('/cats', (req, res) => {
+    res.send('POST REQUEST TO /cats!!!! THIS IS DIFFERENT THAN A GET REQUEST!')
+})
 
+app.get('/cats', (req, res) => {
+    res.send('MEOW!!')
+})
+
+app.get('/dogs', (req, res) => {
+    res.send('WOOF!')
+})
 
 // Built in methods that express has to handle the res.
 //  -- .get expects a path and a callback function that will run whenever a request on that path comes in. v.338
@@ -45,27 +55,21 @@ app.get('/r/:subreddit/:postId', (req, res) => {
     const { subreddit, postId } = req.params;
     res.send(`<h1>Viewing Post ID: ${postId} on the ${subreddit} subreddit</h1>`)
 })
-//
-// app.post('/cats', (req, res) => {
-//     res.send('POST REQUEST TO /cats!!!! THIS IS DIFFERENT THAN A GET REQUEST!')
-// })
-//
-// app.get('/cats', (req, res) => {
-//     res.send('MEOW!!')
-// })
-//
-// app.get('/dogs', (req, res) => {
-//     res.send('WOOF!')
-// })
-// app.get('/search', (req, res) => {
-//     const { q } = req.query;
-//     if (!q) {
-//         res.send('NOTHING FOUND IF NOTHING SEARCHED!')
-//     } else {
-//         res.send(`<h1>Search results for: ${q}</h1>`)
-//     }
-// })
-//
-// app.get('*', (req, res) => {
-//     res.send(`I don't know that path!`)
-// })
+
+//  Query Parameters
+// url shown as... /search?q=searchTermHere
+//  Can handle multiple search params (ex: /search?q=firstSearchTerm&secondSearchTerm
+app.get('/search', (req, res) => {
+    const { q } = req.query;
+    if (!q) {
+        res.send('NOTHING FOUND IF NOTHING SEARCHED!')
+    } else {
+        res.send(`<h1>Search results for: ${q}</h1>`)
+    }
+})
+
+
+//  This needs to be the very last path defined -- paths are matched in order
+app.get('*', (req, res) => {
+    res.send(`I don't know that path!`)
+})
