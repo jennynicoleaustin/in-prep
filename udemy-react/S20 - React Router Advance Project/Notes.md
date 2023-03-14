@@ -1,5 +1,11 @@
+V. 280 Index Routes
+- Rather than putting an empty '' as the path
+  - set index: true
+- index route = 
+  - default route if parent route is active
+
 V. 284 - Data Fetching with a loader()
-- React router to start fetching the data a s soon as we navigate to the page. 
+- React router to start fetching the data as soon as we navigate to the page. 
   - Fetch the data first, then render the page.... 
     - rather than rendering the page and then loading the data.
 - Property add to the route definition. 
@@ -51,3 +57,7 @@ FORMS
     - react router with prevent default automatically and send the form request to the action function instead
 Redirect('url')
     - at the end of the action function you should call react router dom redirect function and pass in the url you want to redirect to. 
+
+V. 303 
+- useFetcher 
+  - use when you want to trigger an action (or loader) withOUT navigating to that page 
