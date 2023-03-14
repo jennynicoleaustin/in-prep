@@ -60,3 +60,5 @@ V. 340 Auto-Restart with Nodemon
 - install globally 
 - run file with command nodemon
   - will watch for changes in the file and restart the server 
+
+V. 343 What is Templating
