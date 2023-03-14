@@ -11,5 +11,8 @@ Process & Argv
 - Allows you to make a script? 
   - tool for getting arguments from the command line. 
 
-File System Module Crash Course 
-- 
+V. 327 Requiring a directory 
+- Using other js files inside other js files, "require" and export to module. 
+  - To require all files within a directory include a single index.js 
+    - inside index.js export an array of all the files 
+    - within the app, require the whole directory
