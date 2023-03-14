@@ -54,4 +54,4 @@ V. 338 Express Routing Basics
   - so if you're using a * to catch all the error paths then you will need to make sure it is at the end. 
 
 V. 339 Express Path Parameters 
-- 
+- Direct match vs generic pattern 

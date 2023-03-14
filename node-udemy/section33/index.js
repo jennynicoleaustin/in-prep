@@ -31,15 +31,20 @@ app.get('/', (req, res) => {
     res.send('Welcome to the home page!')
 })
 
-// app.get('/r/:subreddit', (req, res) => {
-//     const { subreddit } = req.params;
-//     res.send(`<h1>Browsing the ${subreddit} subreddit</h1>`)
-// })
-//
-// app.get('/r/:subreddit/:postId', (req, res) => {
-//     const { subreddit, postId } = req.params;
-//     res.send(`<h1>Viewing Post ID: ${postId} on the ${subreddit} subreddit</h1>`)
-// })
+//  : designates as a parameter
+//  path only cares about matching the pattern
+app.get('/r/:subreddit', (req, res) => {
+    // gain access to the parameters -> to use them on the page.
+    const { subreddit } = req.params;
+    res.send(`<h1>Browsing the ${subreddit} subreddit</h1>`)
+})
+
+// parameters are not limited to a single parameters
+app.get('/r/:subreddit/:postId', (req, res) => {
+    //  params are grouped as an object and object destructuring can assign them to particular keys to gain access.
+    const { subreddit, postId } = req.params;
+    res.send(`<h1>Viewing Post ID: ${postId} on the ${subreddit} subreddit</h1>`)
+})
 //
 // app.post('/cats', (req, res) => {
 //     res.send('POST REQUEST TO /cats!!!! THIS IS DIFFERENT THAN A GET REQUEST!')
