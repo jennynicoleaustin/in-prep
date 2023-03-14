@@ -32,4 +32,26 @@ Section 33 - Servers with Express
 
 V. 335 Intro to Express 
 - web framework for node.js 
+
+V. 336 Express app 
+- you must REQUIRE express 
+- also, save the return value of express in a variable (usually app)
+- app.listen 
+  - needs a port to listen on. 
+- app.use 
+  - this callback function will run anytime an incoming request is made 
+- *** Anytime you make changes to your app you will need to rerun the index.js file in node
+
+V. 337 The Request & Response Objects 
+- .use(req, res)
+  - on all .use there is a request and a response 
+  - made by express and passed into the use function 
+  - express parses the text data from the browser into an object 
+
+V. 338 Express Routing Basics 
+- routing refers to taking an incoming request on a specific path and matching that to some code (html page for example)
+- Routes are matched in ORDER! 
+  - so if you're using a * to catch all the error paths then you will need to make sure it is at the end. 
+
+V. 339 Express Path Parameters 
 - 
