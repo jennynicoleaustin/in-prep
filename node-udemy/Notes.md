@@ -62,3 +62,7 @@ V. 340 Auto-Restart with Nodemon
   - will watch for changes in the file and restart the server 
 
 V. 343 What is Templating
+- Allows you to define a preset "pattern" for a webpage that can be modified dynamically 
+- EJS (js syntax)
+
+V. 344 Configure for the Templating engine 
