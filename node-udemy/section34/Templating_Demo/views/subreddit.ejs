@@ -17,6 +17,7 @@
     <% for(let post of posts) { %>
     <article>
         <p><%= post.title %> - <b><%=post.author %></b></p>
+<!--        Conditionally render an image IF an image exists-->
         <% if(post.img) { %>
         <img src="<%= post.img %>" alt="">
         <% } %>

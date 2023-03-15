@@ -3,6 +3,7 @@ const app = express();
 const path = require('path');
 const redditData = require('./data.json');
 
+// Telling Express that we want to serve up static files to our application and that those files are in the public directory in the root of our project
 app.use(express.static(path.join(__dirname, 'public')))
 
 
@@ -29,11 +30,12 @@ app.get('/cats', (req, res) => {
     res.render('cats', { cats })
 })
 
-//
+// check if the subreddit exists in the data, if it does render the data for that subreddit to the page.
 app.get('/r/:subreddit', (req, res) => {
     const { subreddit } = req.params;
     const data = redditData[subreddit];
     if (data) {
+        // ---- use the spread operator to get access to the individual properties in the data
         res.render('subreddit', { ...data });
     } else {
         res.render('notfound', { subreddit })

@@ -79,3 +79,9 @@ V. 349 Conditionals in EJS
 - to conditionally render elements to the page use <% %> instead of <%= =%> 
 - <%= evaluate this js and render the result directly on the page =%> 
 - <% use this logic to conditionally render some other element on the page %>
+
+V. 352 Serving Static Assets in Express
+- " __dirname, 'public' "
+  - this will copy the absolute path to the index.js file (or rather the file you are writing this in) and copies it to the front of "public"
+
+V. 353 Bootstrap & Express 
