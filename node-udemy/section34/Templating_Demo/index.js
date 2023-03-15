@@ -29,6 +29,7 @@ app.get('/cats', (req, res) => {
     res.render('cats', { cats })
 })
 
+//
 app.get('/r/:subreddit', (req, res) => {
     const { subreddit } = req.params;
     const data = redditData[subreddit];

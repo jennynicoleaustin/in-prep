@@ -74,3 +74,8 @@ V. 345 Setting the views directory
 V. 347 Passing Data 
 - Templates should be as stupid as you can make them 
   - aka remove all the logic that you can from the template 
+
+V. 349 Conditionals in EJS 
+- to conditionally render elements to the page use <% %> instead of <%= =%> 
+- <%= evaluate this js and render the result directly on the page =%> 
+- <% use this logic to conditionally render some other element on the page %>
