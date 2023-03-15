@@ -20,6 +20,8 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
+
+
 app.get('/cats', (req, res) => {
     const cats = [
         'Blue', 'Rocket', 'Monty', 'Stephanie', 'Winston'
@@ -37,6 +39,7 @@ app.get('/r/:subreddit', (req, res) => {
     }
 })
 
+// Move logic out of the template and pass a second argument when you render the template (an object with key/value pair) --- ex = rand: num OR you can pass the num is as num (where key and value are the same num:num)
 app.get('/rand', (req, res) => {
     const num = Math.floor(Math.random() * 10) + 1;
     res.render('random', { num })
