@@ -6,6 +6,7 @@ const app = express();
 
 
 //To parse form data in POST request body:
+// ---- Tells express how to handle the incoming request body, what type of format it should be parsed into.
 app.use(express.urlencoded({ extended: true }))
 // To parse incoming JSON in POST request body:
 app.use(express.json())
@@ -38,6 +39,7 @@ let comments = [
         comment: 'woof woof woof'
     }
 ]
+
 // **********************************
 // INDEX - renders multiple comments
 // **********************************
@@ -97,6 +99,7 @@ app.delete('/comments/:id', (req, res) => {
     comments = comments.filter(c => c.id !== id);
     res.redirect('/comments');
 })
+
 
 app.get('/tacos', (req, res) => {
     res.send("GET /tacos response")

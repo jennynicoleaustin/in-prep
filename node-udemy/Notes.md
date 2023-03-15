@@ -93,3 +93,7 @@ V. 354 EJS & Partials
 - create an element that all our templates can use -- like head 
 - include syntax 
 - <%- include('relativePath/filename') %>
+
+### Section 35 Defining Restful Routes
+
+V. 
