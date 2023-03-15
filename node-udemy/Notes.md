@@ -85,4 +85,11 @@ V. 352 Serving Static Assets in Express
   - this will copy the absolute path to the index.js file (or rather the file you are writing this in) and copies it to the front of "public"
 
 V. 353 Bootstrap & Express 
-- Add the bootstrap.min.js into the public and update the imports on the html page. 
+- Add the bootstrap.min.js into the public and update the imports on the html page.
+
+V. 354 EJS & Partials
+- "includes"
+  - a way of adding templates inside other templates. 
+- create an element that all our templates can use -- like head 
+- include syntax 
+- <%- include('relativePath/filename') %>
