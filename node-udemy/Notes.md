@@ -59,7 +59,7 @@ V. 339 Express Path Parameters
 V. 340 Auto-Restart with Nodemon
 - install globally 
 - run file with command nodemon
-  - will watch for changes in the file and restart the server 
+  - will watch for changes in the file and restart the server
 
 V. 343 What is Templating
 - Allows you to define a preset "pattern" for a webpage that can be modified dynamically 
@@ -96,4 +96,13 @@ V. 354 EJS & Partials
 
 ### Section 35 Defining Restful Routes
 
-V. 
+V. 366 restful Update 
+- difference between a put and a patch! 
+  - PUT replaces all current representations of the target resource with the request payload
+  - PATCH used to partially modify a resource
+
+V. 367 Express Method Override
+- Forms 
+  - html forms by default only except 
+- MethodOverride 
+  - use http verbs where the client (browser) does not usually allow it 
