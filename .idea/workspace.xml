@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b9b1442-cbb8-41f2-baeb-e0c04584c420" name="Changes" comment="Adjust Folder Organization" />
+    <list default="true" id="0b9b1442-cbb8-41f2-baeb-e0c04584c420" name="Changes" comment="Move udemy courses to correct repo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jennifer.austin/WebstormProjects/React -udemy",
+    "last_opened_file_path": "C:/Users/jennifer.austin/WebstormProjects/Influx - Prep",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,6 +60,7 @@
       <workItem from="1677516844466" duration="1283000" />
       <workItem from="1677521901620" duration="253000" />
       <workItem from="1677528219081" duration="3000" />
+      <workItem from="1680105529646" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="Add Starter Project React-redux udemy&#10;-&gt; Section 18">
       <created>1676999543451</created>
@@ -159,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677522115853</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Move udemy courses to correct repo">
+      <created>1680105554555</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680105554555</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +198,7 @@
     <MESSAGE value="Section 18&#10;-&gt; V.246 Reading &amp; Dispatching From A New Slice" />
     <MESSAGE value="Section 18&#10;-&gt; V.247 Splitting Our Code" />
     <MESSAGE value="Adjust Folder Organization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjust Folder Organization" />
+    <MESSAGE value="Move udemy courses to correct repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move udemy courses to correct repo" />
   </component>
 </project>
